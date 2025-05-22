@@ -12,7 +12,7 @@ public class Booking {
 
 	private Bookingdates bookingdates;
 
-	private String additionalneeds;
+	private String additionalneeds; 
 
 	public String getFirstname() {
 		return firstname;
