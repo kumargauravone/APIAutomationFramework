@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.APIAutomationFramework.misc.create.TC_CreateBooking">
+      <class name="com.APIAutomationFramework.misc.create.TC_CreateBookingWithResult">
         <methods>
+          <include name="getRequestSpec"/>
           <include name="testCreateBooking"/>
-          <include name="setConfig"/>
         </methods>
-      </class> <!-- com.APIAutomationFramework.misc.create.TC_CreateBooking -->
+      </class> <!-- com.APIAutomationFramework.misc.create.TC_CreateBookingWithResult -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
